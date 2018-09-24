@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").fadeIn();
+        $("#div2").fadeIn("slow");
+        $("#div3").fadeIn(3000);
+    });
+});
+</script>
+	<title>Libsar</title>
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropbtn">Menu</button>
+    <div class="dropdown-content">
+      <a>About</a>
+      <a>Content</a>
+      <a>Linked</a>
+    </div>
+  </div>
+
+	<h1>Libsa</h1>
+
+	<form>
+  Username:<br>
+  <input type="text" name="username"><br>
+  Password:<br>
+  <input type="text" name="password">
+  <p><a href="https://www.w3schools.com/">Sign up?</a></p>
+<button>Click to show table!</button><br><br>
+<table>
+  <tr>
+    <th>Creator</th>
+    <th>Position</th> 
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>Mochamad</td>
+    <td>Typewriter</td> 
+    <td>Mahasiswa</td>
+  </tr>
+  <tr>
+    <td>Thiesa</td>
+    <td>Manager</td> 
+    <td>Mahasiswa</td>
+  </tr>
+  <tr>
+  	<td>Nabil</td>
+  	<td>Designer</td>
+  	<td>Mahasiswa</td>
+  </tr>
+</table>
+</form>
+
+<div id="footer">&copy; Thisa Nabil</div>
+
+</body>
+</html>
